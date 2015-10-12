@@ -2,7 +2,7 @@ export PATH=/usr/local/bin:$PATH
 export EDITOR="vim"
 
 # Zsh completion
-autoload -Ucompinit
+autoload -U compinit
 compinit
 
 # Prompt
