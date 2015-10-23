@@ -38,6 +38,9 @@ alias code="cd ~/Code"
 # rbenv
 eval "$(rbenv init -)"
 
+# autojump
+[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+
 # Secret stuff
 if [ -f ~/.secret ]; then
   source $HOME/.secret
