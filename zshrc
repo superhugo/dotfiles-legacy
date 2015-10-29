@@ -33,6 +33,7 @@ alias ios="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimul
 alias ydl="youtube-dl -o '~/Downloads/%(title)s.%(ext)s'"
 alias dotfiles="atom ~/.dotfiles"
 alias code="cd ~/Code"
+alias dl="cd ~/Downloads"
 
 # rbenv
 eval "$(rbenv init -)"
